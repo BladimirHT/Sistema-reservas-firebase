@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+.container-main-header {
+  display: flex;
+  padding-top: 1rem;
+  height: 40vh;
+  width: 100vw;
+  font-size: calc(50px + 2vmin);
+  color: white;
+  background: url("./img/playa_2.jpg");
+  justify-content: space-around;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-main {
+  background-color: ghostwhite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.container {
+  display: flex;
+}
+.card-container-sign-in-card {
+  margin: 15px;
+  background-color: white;
+  display: flex;
+  height: 130px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  border: black 1px solid;
+  box-shadow: none;
+}
+.sign-in-button {
+  background-color: goldenrod;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.error {
+  color: red;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  justify-content: right;
+  font-size: 30px;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.main-menu-list {
+  margin-top: 10px;
+  display: flex;
+  padding-left: 0;
+  font-size: 20px;
+  width: auto;
+}
+
+.main-menu-list li {
+  display: inline-block;
+  font-size: xx-large;
+  justify-content: space-between;
+  list-style: none;
+  margin: 20px;
+  color: white;
+  border-radius: 5px;
+  border: white  3px solid;
+  text-decoration: none;
+}
+
+.main-menu-list li:hover {
+  color: cyan;
+  font-weight: bold;
+}
+
+/* .main-menu-list li::after{
+  content: "     |     ";
+} */
+
+.main-menu-list li:active {
+  color: blue;
+  font-weight: bolder;
+}
+.container-main-restaurant {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 2rem 3rem;
+  align-items: stretch;
+  height: 37vh;
+  width: 43vw;
+  justify-content: space-around;
+  border: black 1px solid;
+  border-radius: 15px;
+}
+.container-restaurant {
+  display: flex;
+  margin: 5rem;
+  height: 20rem;
+  width: 35vw;
+  border-radius: 15px;
+  border: black 1px solid;
+  box-shadow: teal;
+}
+.container-restaurant-left {
+  height: 100%;
+  width: 50%;
+  background: url("./img/restautante_1.jpg");
+  background-size: cover;
+  border-radius: 15px;
+}
+.container-restaurant-right {
+  font-size: 12px;
+  padding: 1.2rem;
+  position: relative;
+  top: 20%;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.container-restaurant-right title {
+  font-size: 30px;
+  justify-content: flex-end;
+}
+.reserva {
+  background-color: aqua;
+  font-weight: bolder;
+  position: relative;
+  top: 2%;
+  left: 40%;
+}
+
+.Container-reserva {
+  margin: 2rem;
+  background-color: beige;
+  font-size: 2rem;
+  border-radius: 3rem;
+}
+.Card-Container {
+  display: flex;
+  justify-content: space-evenly;
+}
+#titleReserva {
+  text-align: center;
+  font-size: 5rem;
+  background-color: azure;
+}
+#titleRestaurant{
+  display: flex;
+  align-items: center;
+}
+.Card-Container-button {
+  display: inline;
+  text-align: center;
+}
+.button-edit {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  position: relative;
+  top: 20%;
+  background-color: aqua;
+  border-radius: 0.5rem;
+}
+
+.button-delete {
+  font-weight: 700;
+  background-color: red;
+  position: relative;
+  top: 20%;
+  border-radius: 0.5rem;
+}
+
+.button-delete button:hover{
+  color:black;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
